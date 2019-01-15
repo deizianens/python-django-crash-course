@@ -6,6 +6,9 @@ Available at: https://www.youtube.com/watch?v=D6esTdOLXh4
 Creating a virtual environment:
 > mkvirtualenv [name]
 
+Using a virtual environment:
+> workon [name]
+
 Installing Django:
 > pip install Django
 
