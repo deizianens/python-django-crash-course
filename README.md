@@ -3,10 +3,10 @@
 Available at: https://www.youtube.com/watch?v=D6esTdOLXh4
 
 ## On Windows:
-Creating a virtual environment:
+Create a virtual environment:
 > mkvirtualenv [name]
 
-Using a virtual environment:
+Use a virtual environment:
 > workon [name]
 
 Installing Django:
@@ -23,3 +23,11 @@ Install Mysql Client (for me on Python 3.7, downloaded wheel at: https://www.lfd
 
 Change setting.py database and run migrate:
 > python manage.py migrate
+
+## Some other commands
+Create super user (after that, write the password - at least 8 characters):
+> python manage.py createsuperuser --user=[user] --email=[email]
+
+Create an app:
+> python manage.py startapp [name_of_app]
+After creating an app, it has to be added to setting.py INSTALLED_APPS and to urls.py urlpatterns using "include" command (include has to be imported).
