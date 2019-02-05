@@ -4,7 +4,7 @@ Available at: https://www.youtube.com/watch?v=D6esTdOLXh4
 
 ## On Windows:
 You may need to install virtualenvwrapper:
-> pip install virtualenvwrapper
+> pip install virtualenvwrapper-win 
 
 Create a virtual environment:
 > mkvirtualenv [name]
